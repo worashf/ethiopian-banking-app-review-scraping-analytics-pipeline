@@ -1,0 +1,21 @@
+# Core data processing
+pandas
+numpy
+
+
+
+# NLP and Sentiment Analysis
+transformers
+sentencepiece
+
+# Database
+cx_oracle
+sqlalchemy
+
+# Visualization
+matplotlib
+seaborn
+
+# Testing
+pytest
+
