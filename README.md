@@ -12,7 +12,7 @@ This project analyzes user reviews from various bank applications to extract sen
 
 ## 📁 Project Structure
 
-```
+
 
 │
 ├── scripts/
@@ -34,7 +34,7 @@ This project analyzes user reviews from various bank applications to extract sen
 ├── README.md                              # Project documentation
 └── requirements.txt                       # Dependencies
 
-````
+
 
 ---
 
