@@ -29,9 +29,9 @@ def load_bank_data(bank_name: str) -> pd.DataFrame:
             dfs.append(df)
 
         combined = pd.concat(dfs, ignore_index=True)
-        logger.info(f"✅ Loaded {len(combined)} reviews for {bank_name}")
+        logger.info(f" Loaded {len(combined)} reviews for {bank_name}")
         return combined
 
     except Exception as e:
-        logger.error(f"❌ Error loading data for {bank_name}: {str(e)}")
+        logger.error(f"Error loading data for {bank_name}: {str(e)}")
         return pd.DataFrame()
